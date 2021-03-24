@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Royal Princess Oud Creed</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <strong>I love Royal Princess Oud Creed</strong>
+        </h1>
+        <h2>
+            Floral fragrance for women
+            <hr />
+        </h2>
+        <img src="https://fashionforlunch.net/wp-content/uploads/2015/10/PA220724-1000x706.jpg"
+            alt="Royal Princess Oud Creed" />
+        <hr />
+        <p>
+            <strong>Princess Oud by Creed</strong> is a Oriental Floral fragrance for <em>women</em>. Royal Princess Oud
+            was launched in 2015. The nose
+            behind this fragrance is Olivier Creed. <br /><span>Top notes</span> are Violet, Bergamot and
+            Rose;<span>middle notes</span> are Patchouli, Tuscan
+            Iris, Jasmine and Vanilla Absolute;<span>base notes</span> are Agarwood (Oud), Sandalwood, Siam Benzoin and
+            Styrax.
+        </p>
+        <a href="https://www.fragrantica.com/perfume/Creed/Royal-Princess-Oud-31563.html" target="_blank"
+            class="Read-more">
+            Read more on fragrantica
+        </a>
+        <button>
+            🌸 Get a sample
+        </button>
+        <p class="footer">
+            This page was built by
+            <a href="https://www.instagram.com/workofnoosha" target="_blank" class="myname">
+                Behnoosh Beheshti
+            </a>
+        </p>
+    </div>
+    <script>
+        function get() {
+            let firstName = prompt(" What is your first name?");
+            let email = prompt("What is your email address?");
+            let gender = prompt("What is your gender?");
+            if (gender === "female") {
+                alert("Thank you, " + firstName + " !We'll be in touch by email 😀");
+            } else {
+                alert("Sorry, " + firstName + " !This perfume is not suitable for you 🙁");
+            }
+        }
+        let getSampleButten = document.querySelector("button");
+        getSampleButten.addEventListener("click", get);
+    </script>
+</body>
+
+</html>

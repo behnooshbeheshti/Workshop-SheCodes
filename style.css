@@ -1,0 +1,89 @@
+h1 {
+  text-align: center;
+  color: #7c1014;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: wheat;
+  font-weight: lighter;
+  line-height: 30px;
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin: 10px 0 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: #7c1014;
+  color: wheat;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  background: whitesmoke;
+  color: #7c1014;
+}
+
+span {
+  color: #7c1014;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+  background: linear-gradient(#bfa38d, #ea884a);
+  border-radius: 8px;
+}
+
+.Read-more {
+  font-size: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Read-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  color: black;
+}
+
+.myname {
+  font-size: 16px;
+  text-decoration: none;
+  color: #7c1014;
+}
+
+.myname:hover {
+  text-decoration: underline;
+}
