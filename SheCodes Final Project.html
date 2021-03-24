@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>Royal Princess Oud Creed</title>
 </head>
 
@@ -42,20 +42,7 @@
             </a>
         </p>
     </div>
-    <script>
-        function get() {
-            let firstName = prompt(" What is your first name?");
-            let email = prompt("What is your email address?");
-            let gender = prompt("What is your gender?");
-            if (gender === "female") {
-                alert("Thank you, " + firstName + " !We'll be in touch by email 😀");
-            } else {
-                alert("Sorry, " + firstName + " !This perfume is not suitable for you 🙁");
-            }
-        }
-        let getSampleButten = document.querySelector("button");
-        getSampleButten.addEventListener("click", get);
-    </script>
+    <script src="src/app.js"></script>
 </body>
 
 </html>
